@@ -1,0 +1,124 @@
+/*Colors and fonts*/
+body{
+	background-color: rgb(80,140,70);
+	color: white;
+	font-family: garamond,serif;
+	color:#FEFAE0;
+}
+
+
+h1{
+	font-size:45px;
+	font-family: 'Dr Sugiyama', cursive;
+	color:#F8F4E3;
+}
+
+
+h2{
+	color:pink;
+	font-family: georgia,serif;
+}
+
+
+p{
+	font-size: 17px
+}
+
+
+a{
+	font-family: 'Dr Sugiyama', cursive;
+	font-weight: bold;
+	text-decoration: none;
+	color:rgb(100,80,120);
+	font-size: 30px;
+}
+
+a:hover{color:rgb(200,150,240);}
+
+
+/*Custom design*/
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+@media(max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
+
+
+@media(max-width: 760px){
+	.container{
+		width: 600px;
+	}
+}
+
+.card-green{
+	background-color:rgb(80,140,80);
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px
+	margin: 20px 0px;
+	text-align: center;
+	margin-bottom: 30px
+}
+
+#img-circle{
+	max-width: 70%;
+	max-height:auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 10px 10px 30px rgba(0,0,0,0.4);
+	border-radius: 50%;
+
+
+}
+
+#intro{
+	margin: 20px 0px;
+	text-align: center;
+}
+
+#intro p{
+	margin-bottom: 40px;
+}
+
+
+#follow-me{
+	font-family: 'Dr Sugiyama', cursive;
+	font-size: 36px;
+}
+
+
+#button{
+	background-color:pink; 
+	border-radius:4px;
+	padding:0px 8px;
+	margin-bottom: 50px;
+}
+#button:hover{
+	background-color: rgb(100,80,120);
+}
+
+
+#list-horizontal{
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+#list-horizontal li{
+	display: inline;
+	padding: 10px;
+}
+
+#list-horizontal i{
+	font-size: 30px;
+}
+
+
+
